@@ -21,8 +21,3 @@ python news_graph_multi.py
 - `EMBED_CACHE_PATH`: cache file for keyword embeddings
 - `EMBED_SIM_THRESHOLD`: similarity cutoff (0–1)
 - `SCORING_MODE`: `embedding`
-
-## Notes
-- `.env` is ignored; **never** commit secrets.
-- `keyword_embs_1.json` is a sample cache; delete to rebuild if needed.
-
