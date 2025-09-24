@@ -1,8 +1,5 @@
 # multiagent-news-fetcher
 
-
-# multiagent-news-fetcher
-
 Async news fetcher with text extraction and category balancing. Works standalone or as part of a LangGraph multi-agent pipeline.
 
 ## Quickstart
