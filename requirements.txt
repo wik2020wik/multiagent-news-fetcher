@@ -1,0 +1,6 @@
+python-dotenv
+openai>=1.40.0
+langgraph
+feedparser
+httpx
+trafilatura
