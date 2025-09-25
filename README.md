@@ -9,11 +9,11 @@ git clone https://github.com/wik2020wik/multiagent-news-fetcher.git
 cd multiagent-news-fetcher
 python -m venv .venv && .venv\Scripts\activate   # Windows
 pip install -r requirements.txt
-cp .env.example .env   # then edit .env and add your OpenAI key
+# then edit .env template (see below) and add your OpenAI key
 python news_graph_multi.py
 ```
 
-## Environment
+## .env (template)
 
 - `OPENAI_API_KEY`: your key (required)
 - `OPENAI_MODEL`: default `gpt-4o-mini`
